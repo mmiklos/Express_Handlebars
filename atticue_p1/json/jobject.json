@@ -1,0 +1,12 @@
+{
+	"test" : {
+		"title" : "Counting Sheep",
+		"h1" : "Naming Conventions..."
+	},
+	"testAgain" : [
+		{"count" : "one" },
+		{"count" : "two" },
+		{"count" : "three" },
+		{"count" : "it puts the html in the view folder!!!"}
+	]
+}

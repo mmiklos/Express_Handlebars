@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>{{header}}</title>
+	<link href='stylesheet/main.css' rel='stylesheet' >
+</head>
+<body>
+	<h1>{{title}}</h1>
+	<ul>
+	{{#each list}}
+		<li> {{@index}} : {{this.count}} </li>
+	{{else}}
+		<li> Empty List </li>
+	{{/each}}
+</body>
+</html>
